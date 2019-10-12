@@ -14,17 +14,14 @@ Please select language:
 2) Turkish alphabet
 
 """)
-lang = int(input("Select language: "))
-if lang != 1 or lang != 2:
-    x = 1
-while x==1:
-    print("Please chose 1 or 2")
-    lang = int(input("Select language: "))
-    if lang == 1 or lang == 2:
-        x=0
+while True:
+    lang = input("Select language: ")
+    if lang == "1" or lang == "2":
+        break
+    else:
+        print("Please chose 1 or 2")
+        continue
 text = input("Enter encrypted/decrypted text: ")
-if lang != 1 or lang != 2:
-    print("Please chose 1 or 2")
 text = text.lower()
 en_list = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
            "w", "x", "y", "z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
