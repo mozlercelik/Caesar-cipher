@@ -15,7 +15,7 @@ Please select language:
 
 """)
 lang = int(input("Select language: "))
-if lang != 1 and lang != 2:
+if lang != 1 or lang != 2:
     x = 1
 while x==1:
     print("Please chose 1 or 2")
