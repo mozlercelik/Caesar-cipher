@@ -1,4 +1,12 @@
-def rot(text, lang, en_list, tr_list, length):
+
+en_list = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
+           "w", "x", "y", "z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
+           "s", "t", "u", "v", "w", "x", "y", "z"]
+tr_list = ["a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "ı", "i", "j", "k", "l", "m", "n", "o", "ö", "p", "r", "s",
+           "ş", "t", "u", "ü", "v", "y", "z", "a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "ı", "i", "j", "k", "l",
+           "m", "n", "o", "ö", "p", "r", "s", "ş", "t", "u", "ü", "v", "y", "z"]
+
+def rot(text, lang, length):
     new_text = list(text)
     new_text1 = list(text)
     if (lang == "1"):
@@ -41,3 +49,4 @@ def rot(text, lang, en_list, tr_list, length):
                     new_text = list(text)
                     new_text1 = list(text)
             y += 1
+
