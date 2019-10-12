@@ -23,13 +23,7 @@ while True:
         continue
 text = input("Enter encrypted/decrypted text: ")
 text = text.lower()
-en_list = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
-           "w", "x", "y", "z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
-           "s", "t", "u", "v", "w", "x", "y", "z"]
-tr_list = ["a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "ı", "i", "j", "k", "l", "m", "n", "o", "ö", "p", "r", "s",
-           "ş", "t", "u", "ü", "v", "y", "z", "a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "ı", "i", "j", "k", "l",
-           "m", "n", "o", "ö", "p", "r", "s", "ş", "t", "u", "ü", "v", "y", "z"]
 length = len(text)
 alinan_deger = list(text)
 
-rot.rot(text, lang, en_list, tr_list, length)
+rot.rot(text, lang, length)
