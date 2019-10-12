@@ -1,7 +1,7 @@
 def rot(text, lang, en_list, tr_list, length):
     new_text = list(text)
     new_text1 = list(text)
-    if (lang == 1):
+    if (lang == "1"):
         y = 0
         i = 0
         rot_number = 1
@@ -21,7 +21,7 @@ def rot(text, lang, en_list, tr_list, length):
                     new_text = list(text)
                     new_text1 = list(text)
             y += 1
-    elif (lang == 2):
+    elif (lang == "2"):
         y = 0
         i = 0
         rot_number = 1
@@ -41,4 +41,3 @@ def rot(text, lang, en_list, tr_list, length):
                     new_text = list(text)
                     new_text1 = list(text)
             y += 1
-
