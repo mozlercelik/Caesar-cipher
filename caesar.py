@@ -24,6 +24,5 @@ while True:
 text = input("Enter encrypted/decrypted text: ")
 text = text.lower()
 length = len(text)
-alinan_deger = list(text)
 
 rot.rot(text, lang, length)
