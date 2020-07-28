@@ -1,5 +1,5 @@
-# Caesar-Pro
-Caesar Cipher Pro V1
+# Caesar-Cipher
+Caesar Cipher V1
 
 
 Use: python caesar.py
